@@ -59,13 +59,13 @@ export default{
                              id:12,  Instituted:"Pluralsight" ,Title:"Firebase Functions: Fundamentals", StartDate:"Dic. 2018", EndDate:"Dic. 2018",                       
                         }, 
                         {
-                             id:13,  Instituted:"Microsoft Virtaul Academy" ,Title:"Developing in HTML5 with JavaScript and CSS3 Jump Start", StartDate:"", EndDate:"",                       
+                             id:13,  Instituted:"Microsoft Virtual Academy" ,Title:"Developing in HTML5 with JavaScript and CSS3 Jump Start", StartDate:"", EndDate:"",                       
                         }, 
                          {
-                             id:14,  Instituted:"Microsoft Virtaul Academy" ,Title:"Creando aplicaciones Web con ASP.NET en Visual Studio", StartDate:"", EndDate:"",                       
+                             id:14,  Instituted:"Microsoft Virtual Academy" ,Title:"Creando aplicaciones Web con ASP.NET en Visual Studio", StartDate:"", EndDate:"",                       
                         },
                         {
-                             id:15,  Instituted:"Microsoft Virtaul Academy" ,Title:"Jump Start sobre el desarrollo de aplicaciones web ASP.NET MVC 4", StartDate:"", EndDate:"",                       
+                             id:15,  Instituted:"Microsoft Virtual Academy" ,Title:"Jump Start sobre el desarrollo de aplicaciones web ASP.NET MVC 4", StartDate:"", EndDate:"",                       
                         }, 
                          {
                              id:15,  Instituted:"Platzi" ,Title:"Curso Básico de C#", StartDate:"", EndDate:"",                       
