@@ -18,6 +18,14 @@ export default {
    font-size: 0.9em; 
    line-height: 1.6;
  }
+
+ @media only screen and (max-width: 600px) {
+     .letter {
+   letter-spacing: 0.1em;   
+   font-size: 0.7em; 
+    
+ }
+ }
 </style>
  
 

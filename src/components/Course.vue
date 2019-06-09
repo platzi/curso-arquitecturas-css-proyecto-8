@@ -68,10 +68,10 @@ export default{
                              id:15,  Instituted:"Microsoft Virtual Academy" ,Title:"Jump Start sobre el desarrollo de aplicaciones web ASP.NET MVC 4", StartDate:"", EndDate:"",                       
                         }, 
                          {
-                             id:15,  Instituted:"Platzi" ,Title:"Curso Básico de C#", StartDate:"", EndDate:"",                       
+                             id:16,  Instituted:"Platzi" ,Title:"Curso Básico de C#", StartDate:"", EndDate:"",                       
                         }, 
                         {
-                             id:16,  Instituted:"Platzi" ,Title:"Curso Intermedio de C#", StartDate:"", EndDate:"",                       
+                             id:17,  Instituted:"Platzi" ,Title:"Curso Intermedio de C#", StartDate:"", EndDate:"",                       
                         },
                         
                         
@@ -89,7 +89,17 @@ export default{
  }
   .normalLetter {
    letter-spacing: 0.1em;   
-   font-size: 0.8em; 
+   font-size: 0.7em; 
    line-height: 1.6;
  }
+ @media only screen and (max-width: 600px) {
+   .letter {  
+        font-size: 0.6em;   
+   }
+   .normalLetter {
+   
+   font-size: 0.5em; 
+    
+ }
+  }
 </style>

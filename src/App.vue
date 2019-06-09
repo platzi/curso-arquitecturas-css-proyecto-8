@@ -123,4 +123,12 @@ hr{
   width: 33%;
     
 }
+
+@media only screen and (max-width: 600px) {
+   img{
+ 
+  margin-left: 20%;
+  width: 100px;
+}
+  }
 </style>
