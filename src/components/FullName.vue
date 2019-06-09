@@ -21,13 +21,12 @@ export default {
 <style scoped>
 
  .letter {
-   letter-spacing: 0.6em;
+   letter-spacing: 0.5em;
    text-transform: uppercase;
-   font-size: 1.5em;        
+   font-size: 1.8em;        
   
  }
 .lastName {  
-   font-weight: bold;
-    
+   font-weight: bold;    
  }
 </style>

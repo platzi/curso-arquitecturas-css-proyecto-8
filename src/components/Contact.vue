@@ -1,14 +1,11 @@
 <template>
-    <div class="col-1">
-        <div class="col-3">           
-        </div>
-        <div class="col-3">
-                <i class="icon" v-bind:class="Icon"></i>
-                <span class="normalLetter">{{Value}}</span>
-        </div>
-        <div class="col-3">           
-        </div>     
-    </div>
+<div>  
+    <div>  
+        <i class="icon" v-bind:class="Icon"></i>
+        <span class="normalLetter">{{Value}}</span>   
+    </div> 
+    <br>     
+</div>
 </template>
 <script>
 export default {
@@ -16,13 +13,24 @@ export default {
     props:{
         Value:String,
         Icon:String
-    }
+    },
+  data(){ 
+    return {
+        contacts :
+        [
+            { id:1, icon : "fas fa-envelope", value :"cristian.carvajal@live.com" },
+            { id:2, icon : "fab fa-linkedin", value :"linkedin.com/in/cricarba/" },
+            { id:3, icon : "fas fa-phone", value :"310 3358780" },
+            { id:4, icon : "fab fa-skype", value :"crisltree" },
+            { id:5, icon : "fas fa-map-marker", value :"Bogotá, CO" },
+        ]
+        }
+  }
 }
 </script>
 <style scoped>
-  .icon {
-   
-     letter-spacing: 0.5em;   
+  .icon {   
+   letter-spacing: 0.5em;   
    font-size: 1.3em; 
    font-weight: bold;
  }
