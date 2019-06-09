@@ -23,9 +23,8 @@ export default {
  .letter {
    letter-spacing: 0.6em;
    text-transform: uppercase;
-   font-size: 1.5em;  
-   position: fixed;    
-  line-height: 2;
+   font-size: 1.5em;        
+  
  }
 .lastName {  
    font-weight: bold;

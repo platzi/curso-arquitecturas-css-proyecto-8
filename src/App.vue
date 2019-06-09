@@ -31,7 +31,7 @@
        Control del código fuente mediante herramientas como Sonar Qube y Resharper. 
        Versionamiento, liberación, control de código fuente mediante AzureDevOps (TFS, VSTS, Git) administración del mismo. "  />
 
-        <WorkExperience Company="everis" Job="Ingeniero de desarrollo" StartDate="Nov. 2016" EndDate="Sep. 2017"
+        <WorkExperience Company="everis" Job="Ingeniero de desarrollo Sr." StartDate="Nov. 2016" EndDate="Sep. 2017"
       Description="Desarrollo y mantenimiento de funcionalidades en múltiples aplicaciones.
             Tecnologías usadas .Net framework 2.0 hasta 4.6, Bases de datos Oracle y SQL Server.
             Aplicaciones en WPF, Asp.Net Web forms, Asp MVC4 y MVC 5.
@@ -39,6 +39,34 @@
             Servicios web (Web Services, Web Api, WCF)
             Control de versiones con SVN, Team Foundation y Rational Team Concert.
             Liderazgo de desarrolladores Junior, estimaciones, control sobre entregables, reunion de defición con el cliente."  />
+     
+      <WorkExperience Company="Isolucion" Job="Ingeniero de desarrollo Sr." StartDate="Oct. 2015" EndDate="Nov. 2015"
+      Description="Creación Sotfware SST Facil, desarrollo de nuevos módulos y funcionalidades. Metodologia Scrum.
+                  Lenguaje de programación C#, base de datos MongoDb, SQL Server, Oracle.
+                  Creación del front Angularjs, Jquery, HTML, CSS, Javascript, Asp MVC5 y asp.Net WebForms.
+                  Conexión entre aplicaciones con Web Api.
+                  Creación de servicios windows para control de datos y despliegue de aplicación.
+                  Versionamiento con Team Foundation Services, administración del TFS, creación de branchs, merges, creación de usuarios, etc"  />
+ 
+ <WorkExperience Company="Sonda" Job="Ingeniero de desarrollo Sr." StartDate="Sep. 2015" EndDate="Oct. 2015"
+      Description="Desarrollo de software .Net, Windows Form, Asp.Net creación de ETLs para carga de archivos en lote. 
+            Servicios Windows para automatización de cargue de archivos."  />
+      
+       <WorkExperience Company="Isolucion" Job="Ingeniero de desarrollo Jr." StartDate="May. 2013" EndDate="Sep. 2015"
+      Description="Migración de Software Isolucion de asp classic a ASP.Net, desarrollo de nuevos módulos y funcionalidades, evolución de funcionalidades anteriores. Metodología Cascada y Scrum.
+                Lenguaje de programación C#, base de datos SQL Server, Oracle.
+                Creación del front Angularjs, Jquery, HTML, CSS, Javascript, Asp MVC5 y asp.Net WebForms.
+                Conexión entre aplicaciones con Web Api.
+                Creación de servicios windows para newsletter y workFlow."  />
+       <WorkExperience Company="Digital Ware" Job="Ingeniero de desarrollo Jr." StartDate="Feb. 2013" EndDate="May. 2013"
+      Description="Desarrollo Software Kactus RH.
+                Bajo lenguaje de programación C#y VB, base de datos SQL Server.
+                Creaciòn del front Javascript, HTML, CSS y Asp.WebForms"  />
+      <WorkExperience Company="Oasis" Job="Técnico de desarrollo" StartDate="Feb. 2011" EndDate="Feb. 2013"
+      Description="Desarrollo, Soporte y mantenimiento de la aplicación Oasis.
+                Creación Sotfware OasisPortal, bajo lenguaje de programación C#, bases de datos SQL Server, Oracle.
+                Creación del front Javascript, HTML, CSS, Jquery asp.WebForms.
+                Manejo de reportes con Reporting Services."  />
     </div>   
    </div>
   </div>
