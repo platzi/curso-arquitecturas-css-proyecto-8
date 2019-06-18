@@ -21,9 +21,9 @@ steps:
     npm run build
     cd dist
     git init
-    git config user.email "cristian.carvajal@live.com" 
+    git config user.email "carvagereal@gmail.com" 
     git config user.name "Cristian Carvajal Bahamon"
     git add -A
     git commit -m 'despliegue'
-    git push -f $(github_pat)@github.com:cricarba/profile.git master:gh-pages
+    git push -f https://$(github_pat)@github.com/profile.git 
   displayName: 'npm install and build'
