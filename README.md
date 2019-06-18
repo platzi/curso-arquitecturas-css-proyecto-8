@@ -1,4 +1,4 @@
-# profile
+# profile  [![Build status](https://cricarbah.visualstudio.com/Profile/_apis/build/status/Profile-CI)](https://cricarbah.visualstudio.com/Profile/_build/latest?definitionId=5)
 
 ## Project setup
 ```
