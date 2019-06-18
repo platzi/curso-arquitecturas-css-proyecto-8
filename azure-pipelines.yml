@@ -20,5 +20,8 @@ steps:
     git config user.name "Cristian Carvajal Bahamon"
     npm install
     npm run build
-    npm run deploy -- -r https://$(github_pat)@github.com/profile.git
+    cd dist
+    git add .
+    git commit -m "Publishing GitHub Pages"
+    git push -f git@github.com:cricarba/profile.git master:gh-pages
   displayName: 'npm install and build'
