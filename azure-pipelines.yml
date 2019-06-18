@@ -25,5 +25,5 @@ steps:
     git config user.name "Cristian Carvajal Bahamon"
     git add -A
     git commit -m 'despliegue'
-    git push -f git@github.com:cricarba/profile.git master:gh-pages
+    git push -f $(github_pat)@github.com:cricarba/profile.git master:gh-pages
   displayName: 'npm install and build'
