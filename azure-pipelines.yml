@@ -16,6 +16,9 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
+    git config user.email "carvagereal@gmail.com" 
+    git config user.name "Cristian Carvajal Bahamon"
     npm install
     npm run build
+    npm run deploy -- -r https://$(github_pat)@github.com/profile.git
   displayName: 'npm install and build'
