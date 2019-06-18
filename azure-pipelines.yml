@@ -23,5 +23,5 @@ steps:
     cd dist
     git add .
     git commit -m "Publishing GitHub Pages"
-    git push -f https://$(github_pat)@github.com/profile.git master:gh-pages
+    git push -f https://$(github_pat)@github.com/profile.git origin:gh-pages
   displayName: 'npm install and build'
