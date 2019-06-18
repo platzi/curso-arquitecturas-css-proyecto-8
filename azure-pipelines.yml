@@ -25,5 +25,5 @@ steps:
     git config user.name "Cristian Carvajal Bahamon"
     git add -A
     git commit -m 'despliegue'
-    git push --set-upstream https://$(github_pat)@github.com/profile.git master  
+    git push --set-upstream https://$(github_pat)@github.com/profile.git master:gh-pages  
   displayName: 'npm install and build'
