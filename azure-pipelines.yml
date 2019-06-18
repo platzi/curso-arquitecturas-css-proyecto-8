@@ -21,7 +21,8 @@ steps:
     npm install
     npm run build
     cd dist
-    git add .
-    git commit -m "Publishing GitHub Pages"
-    git push -f git@github.com:cricarba/cricarba.github.io.git master
+    git init
+    git add -A
+    git commit -m 'despliegue'
+    git push -f git@github.com:cricarba/profile.git master:gh-pages
   displayName: 'npm install and build'
