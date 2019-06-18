@@ -16,12 +16,13 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    git config user.email "carvagereal@gmail.com" 
-    git config user.name "Cristian Carvajal Bahamon"
+   
     npm install
     npm run build
     cd dist
     git init
+    git config user.email "carvagereal@gmail.com" 
+    git config user.name "Cristian Carvajal Bahamon"
     git add -A
     git commit -m 'despliegue'
     git push -f git@github.com:cricarba/profile.git master:gh-pages
