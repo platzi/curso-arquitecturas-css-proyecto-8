@@ -16,9 +16,9 @@
    <div class="col-1">
      <div class="col-2">
        <div class="col-1">        
-        <div class="col-30">               
+        <div class="col-20">               
         </div>
-        <div class="col-60">     
+        <div class="col-80">     
           <Contact  v-for="contact in contacts"  v-bind:key="contact.id" v-bind:Icon="contact.icon" v-bind:Value="contact.value" />
            <hr>
           <Title Title="Educación" />
@@ -42,7 +42,7 @@
           Conocimientos de metodologías ágiles de desarrollo (SCRUM, XP), conocimientos de patrones de diseño y UML.
           Manejo y administración de repositorios de código Team Foundation Services o VSTFS (AzureDevOps), Git y Github.Conocimiento en Sonar Qube" />
           <br><br><br>
-          <Title Title="Experiencia laboral" />
+          <Title Title="Experiencia" />
           <WorkExperience ></WorkExperience >
     </div>   
    </div>
@@ -114,11 +114,17 @@ hr{
 .col-60{
   width: 60%;    
 }
+.col-80{
+  width: 80%;    
+}
 .col-70{
   width: 70%;    
 }
 .col-30{
   width: 30%;    
+}
+.col-20{
+  width: 20%;    
 }
 .col-3{
   width: 33%;
