@@ -3,7 +3,7 @@
   <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
     <div class="col-1">
        <div class="col-2">
-        <img src="./assets/0.jpeg" />
+        <img src="./assets/0.jpeg" class="img-profile" />
       </div>
       <div class="col-2">
         <FullName FirstName="Cristian" LastName="Carvajal Bahamón" />
@@ -18,12 +18,13 @@
        <div class="col-1">        
         <div class="col-20">               
         </div>
-        <div class="col-80">     
+        <div class="col-70">     
           <Contact  v-for="contact in contacts"  v-bind:key="contact.id" v-bind:Icon="contact.icon" v-bind:Value="contact.value" />
            <hr>
           <Title Title="Educación" />
           <Education></Education>
-         
+         <Title Title="Certificaciones" />
+          <Certifications></Certifications> 
           <Title Title="Cursos" />
           <Course></Course>    
         </div>            
@@ -32,16 +33,15 @@
     </div>
     <div class="col-2">     
           <Title Title="Perfil" />
-          <Paragraph Paragraph="Full Stack Web Developer.
-          Desarrollador .NET ( C#, VB, Asp.Net,Asp.Net MVC, Web Api, WPF, WCF)
-          HTML, CSS, JavaScript y estándares HTML5. 
-          Conocimientos en Vue.js, AngularJS 1.x, Bootstrap, Stylus, Gulp y MeteorJs.
-          Conocimientos en Bases de datos SQL Server 2005 Y Superiores, Oracle 10g, Postgress, PL/SQL, MongoDB, Firebase y Elasticsearch
+          <Paragraph Paragraph="Desarrollador .NET (C#, VB, Asp.Net, Asp.Net MVC, Web Api, WPF, WCF).
+          Desarrollo frontend en HTML, CSS, JavaScript, Vue.js, AngularJS 1.x, Bootstrap, Stylus, Gulp y MeteorJs.
+          Bases de datos SQL Server, Oracle, Postgress, PL/SQL, MongoDB, Firebase y Elasticsearch.
           Manejo de Reporting Services, Report Builder y Sybase InfoMaker. 
-          Conocimiento de lenguajes de programación C#, Visual Basic.Net y JavaScript .
-          Conocimientos de metodologías ágiles de desarrollo (SCRUM, XP), conocimientos de patrones de diseño y UML.
-          Manejo y administración de repositorios de código Team Foundation Services o VSTFS (AzureDevOps), Git y Github.Conocimiento en Sonar Qube" />
-          <br><br><br>
+          Lenguajes de programación C#, Visual Basic.Net y JavaScript.
+          Conocimientos de metodologías ágiles de desarrollo (SCRUM, XP, Kanban), conocimientos de patrones de diseño y UML.
+          Integración Continua CI, entrega continua CD mediante AzureDevops. Conocimiento de Git y GitHub, herramientas como
+          Sonar Qube, Resharper y JMeter." />
+          <br>
           <Title Title="Experiencia" />
           <WorkExperience ></WorkExperience >
     </div>   
@@ -57,6 +57,8 @@ import WorkExperience from './components/WorkExperience.vue'
 import Contact from './components/Contact.vue'
 import Education from './components/Education.vue'
 import Course from './components/Course.vue'
+import Certifications from './components/Certifications.vue'
+
 
 export default {
   name: 'app',
@@ -67,7 +69,8 @@ export default {
     WorkExperience,
     Contact,
     Education,
-    Course
+    Course,
+    Certifications
   },
   data(){ 
     return {
@@ -93,7 +96,7 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-img{
+.img-profile{
   border-radius: 50%;
   margin-left: 40%;
   width: 150px;
