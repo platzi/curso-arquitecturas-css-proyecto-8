@@ -13,19 +13,7 @@ export default {
     props:{
         Value:String,
         Icon:String
-    },
-  data(){ 
-    return {
-        contacts :
-        [
-            { id:1, icon : "fas fa-envelope", value :"cristian.carvajal@live.com" },
-            { id:2, icon : "fab fa-linkedin", value :"linkedin.com/in/cricarba/" },
-            { id:3, icon : "fas fa-phone", value :"310 3358780" },
-            { id:4, icon : "fab fa-skype", value :"crisltree" },
-            { id:5, icon : "fas fa-map-marker", value :"Bogotá, CO" },
-        ]
-        }
-  }
+    }
 }
 </script>
 <style scoped>
