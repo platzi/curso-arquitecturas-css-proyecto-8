@@ -24,7 +24,9 @@ export default{
   data(){
       return {
           Courses: [  
-                                              
+                         {
+                             id:18,  Instituted:"Pluralsight" ,Title:"Docker and Kubernetes: The Big Picture", StartDate:"Jul. 2019", EndDate:"Jul. 2019",                       
+                        },                      
                          {
                              id:18,  Instituted:"Pluralsight" ,Title:"Continuous Delivery and DevOps with Azure DevOps: Managing Builds", StartDate:"Jun. 2019", EndDate:"Jun. 2019",                       
                         },
