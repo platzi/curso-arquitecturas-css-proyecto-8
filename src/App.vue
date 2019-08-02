@@ -33,7 +33,7 @@
     </div>
     <div class="col-2">     
           <Title Title="Perfil" />
-          <Paragraph Paragraph="Desarrollador .NET (C#, VB, Asp.Net, Asp.Net MVC, Web Api, WPF, WCF).
+          <Paragraph Paragraph="Cuento con 8 años de experiencia en desarrollo .NET (C#, VB, Asp.Net, Asp.Net MVC, Web Api, WPF, WCF).
           Desarrollo frontend en HTML, CSS, JavaScript, Vue.js, AngularJS 1.x, Bootstrap, Stylus, Gulp y MeteorJs.
           Bases de datos SQL Server, Oracle, Postgress, PL/SQL, MongoDB, Firebase y Elasticsearch.
           Manejo de Reporting Services, Report Builder y Sybase InfoMaker. 
@@ -134,9 +134,8 @@ hr{
 }
 
 @media only screen and (max-width: 600px) {
-   img{
- 
-  margin-left: 20%;
+img{ 
+  margin-left: 10%;
   width: 100px;
 }
   }
