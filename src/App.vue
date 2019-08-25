@@ -93,7 +93,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;  
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 5%;
 }
 .img-profile{
   border-radius: 50%;
@@ -134,8 +134,8 @@ hr{
 }
 
 @media only screen and (max-width: 600px) {
-img{ 
-  margin-left: 10%;
+.img-profile{ 
+  margin-left: 20%;
   width: 100px;
 }
   }
