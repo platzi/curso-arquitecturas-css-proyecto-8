@@ -1,7 +1,9 @@
 <template>
 <div>
-  <div v-for="course in Courses" v-bind:key="course.id">     
-     <span class="letter">{{ course.Title }}</span>
+  <div v-for="course in Courses" v-bind:key="course.id">    
+       <a :href="course.Location" target="_blank">
+   <span class="letter">{{ course.Title }}</span>
+    </a>
      <br/>
      <span class="normalLetter">{{ course.Instituted }} | {{ course.StartDate }} - {{course.EndDate}} </span>      
      <br/>      
@@ -25,10 +27,16 @@ export default{
       return {
           Courses: [  
                          {
-                             id:18,  Instituted:"Pluralsight" ,Title:"Docker and Kubernetes: The Big Picture", StartDate:"Jul. 2019", EndDate:"Jul. 2019",                       
+                               id:21,  Instituted:"Pluralsight" ,Title:"Feature Toggles, Package management and versioning with Azure DevOps", StartDate:"Jul. 2019", EndDate:"Ago. 2019",  Location :"https://1drv.ms/b/s!AjMiacNj2IM_hYM37esdebo0tApfHQ"                     
+                         },
+                         {
+                               id:20,  Instituted:"Pluralsight" ,Title:"Continuous Delivery and DevOps with Azure DevOps: Release pipelines", StartDate:"Jul. 2019", EndDate:"Ago. 2019",  Location :"https://1drv.ms/b/s!AjMiacNj2IM_hYMoWBWuN6mcVPcdsw"                     
+                         },
+                         {
+                             id:19,  Instituted:"Pluralsight" ,Title:"Docker and Kubernetes: The Big Picture", StartDate:"Jul. 2019", EndDate:"Jul. 2019",  Location :"https://1drv.ms/b/s!AjMiacNj2IM_hYMnuJfjhG1QKRdlMA"                     
                         },                      
                          {
-                             id:18,  Instituted:"Pluralsight" ,Title:"Continuous Delivery and DevOps with Azure DevOps: Managing Builds", StartDate:"Jun. 2019", EndDate:"Jun. 2019",                       
+                             id:18,  Instituted:"Pluralsight" ,Title:"Continuous Delivery and DevOps with Azure DevOps: Managing Builds", StartDate:"Jun. 2019", EndDate:"Jun. 2019", Location :""                      
                         },
                         {
                              id:4,  Instituted:"Pluralsight" ,Title:"Source Control with Microsoft TFS/VSTS and Visual Studio 2017", StartDate:"Jun. 2019", EndDate:"Jun. 2019",                       
