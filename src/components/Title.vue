@@ -23,7 +23,8 @@ export default {
  @media only screen and (max-width: 600px) {
    .letter {  
         font-size: 0.9em;  
-      
+        letter-spacing: 0.1em;
+        
   }
 }
 </style>

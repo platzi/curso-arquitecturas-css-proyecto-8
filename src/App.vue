@@ -95,11 +95,36 @@ export default {
   color: #2c3e50;
   margin-top: 5%;
 }
+
+.Title{
+   letter-spacing: 0.2em;
+   text-transform: uppercase;
+   font-size: 0.8em; 
+   font-weight: 550;
+}
+
+.SubTitle{
+   letter-spacing: 0.1em;   
+   font-size: 0.8em; 
+   line-height: 1.6;
+}
+
+
+.Footer{
+   letter-spacing: 0.1em;   
+   font-size: 0.7em; 
+   line-height: 1.6;
+}
 .img-profile{
   border-radius: 50%;
   margin-left: 40%;
   width: 150px;
 }
+
+a {color:#2c3e50;}         /* Unvisited link  */
+a:visited {color:#2c3e50;} /* Visited link    */
+a:hover {color:#2c3e50;}   /* Mouse over link */
+a:active {color:#2c3e50;}  /* Selected link   */
 
 hr{  
   margin-right:40px;
@@ -134,9 +159,23 @@ hr{
 }
 
 @media only screen and (max-width: 600px) {
-.img-profile{ 
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    .img-profile{ 
   margin-left: 20%;
   width: 100px;
 }
+
+   .Title {  
+        font-size: 0.6em;   
+         letter-spacing: 0.1em;
+   }
+   .SubTitle {
+   
+   font-size: 0.6em; 
+     letter-spacing: 0em;
+ }
   }
 </style>

@@ -2,10 +2,10 @@
 <div>
   <div v-for="course in Courses" v-bind:key="course.id">    
        <a :href="course.Location" target="_blank">
-   <span class="letter">{{ course.Title }}</span>
+   <span class="Title">{{ course.Title }}</span>
     </a>
      <br/>
-     <span class="normalLetter">{{ course.Instituted }} | {{ course.StartDate }} - {{course.EndDate}} </span>      
+     <span class="SubTitle">{{ course.Instituted }} | {{ course.StartDate }} - {{course.EndDate}} </span>      
      <br/>      
      <br>
   </div>
@@ -85,26 +85,4 @@ export default{
   }
 }
 </script>
-<style scoped>
-  .letter {
-   letter-spacing: 0.2em;
-   text-transform: uppercase;
-   font-size: 0.8em; 
-   font-weight: 550;
- }
-  .normalLetter {
-   letter-spacing: 0.1em;   
-   font-size: 0.7em; 
-   line-height: 1.6;
- }
- @media only screen and (max-width: 600px) {
-   .letter {  
-        font-size: 0.6em;   
-   }
-   .normalLetter {
-   
-   font-size: 0.5em; 
-    
- }
-  }
-</style>
+

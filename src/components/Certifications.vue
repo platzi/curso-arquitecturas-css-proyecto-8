@@ -3,10 +3,10 @@
   <div v-for="certification in Certifications" v-bind:key="certification.id" class="col-1">    
   <div class="col-80">
     <a :href="certification.Location" target="_blank">
-   <span class="letter">{{ certification.Title }}</span>
+   <span class="Title">{{ certification.Title }}</span>
     </a>   
      <br/>
-     <span class="normalLetter">{{ certification.Instituted }} | {{ certification.StartDate }} - {{certification.EndDate}} </span>      
+     <span class="SubTitle">{{ certification.Instituted }} | {{ certification.StartDate }} - {{certification.EndDate}} </span>      
      <br/>  
      <br>
   </div>    
@@ -49,30 +49,4 @@ export default{
   }
 }
 </script>
-<style scoped>
- .img-certification{
-     width: 80px;
-     
- }
-  .letter {
-   letter-spacing: 0.2em;
-   text-transform: uppercase;
-   font-size: 0.8em; 
-   font-weight: 550;
- }
-  .normalLetter {
-   letter-spacing: 0.1em;   
-   font-size: 0.7em; 
-   line-height: 1.6;
- }
- @media only screen and (max-width: 600px) {
-   .letter {  
-        font-size: 0.6em;   
-   }
-   .normalLetter {
-   
-   font-size: 0.5em; 
-    
- }
-  }
-</style>
+

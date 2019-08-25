@@ -1,6 +1,6 @@
 <template>
     <div class="col-1">  
-               <span class="letter">{{ Paragraph }} </span> 
+               <span class="SubTitle">{{ Paragraph }} </span> 
     </div>
 </template>
 <script>
@@ -11,22 +11,7 @@ export default {
     }
 }
 </script>
-<style scoped>
- 
-   .letter {
-   letter-spacing: 0.1em;   
-   font-size: 0.9em; 
-   line-height: 1.6;
- }
 
- @media only screen and (max-width: 600px) {
-     .letter {
-   letter-spacing: 0.1em;   
-   font-size: 0.7em; 
-    
- }
- }
-</style>
  
 
  

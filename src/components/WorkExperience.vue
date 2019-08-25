@@ -1,9 +1,9 @@
 <template>
 <div>
   <div v-for="job in Jobs" v-bind:key="job.id">     
-     <span class="letter">{{ job.Job }}</span>
+     <span class="Title">{{ job.Job }}</span>
      <br/>
-     <span class="normalLetter">{{ job.Company }} | {{ job.StartDate }} - {{job.EndDate}} </span>      
+     <span class="SubTitle">{{ job.Company }} | {{ job.StartDate }} - {{job.EndDate}} </span>      
      <br/>
      <Paragraph :Paragraph="job.Description"/>
      <br>
@@ -61,26 +61,4 @@ export default{
   }
 }
 </script>
-<style scoped>
-  .letter {
-   letter-spacing: 0.2em;
-   text-transform: uppercase;
-   font-size: 1em; 
-   font-weight: 550;
- }
-  .normalLetter {
-   letter-spacing: 0.1em;   
-   font-size: 0.9em; 
-   line-height: 1.6;
- }
-  @media only screen and (max-width: 600px) {
-   .letter {  
-        font-size: 0.7em;         
-  }
-    .normalLetter {
-  
-   font-size: 0.7em; 
-   
- }
-}
-</style>
+
