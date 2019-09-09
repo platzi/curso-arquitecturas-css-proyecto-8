@@ -158,15 +158,11 @@ hr{
     
 }
 
-@media only screen and (max-width: 600px) {
-
-  }
-
   @media only screen and (max-width: 600px) {
-    .img-profile{ 
-  margin-left: 20%;
-  width: 100px;
-}
+      .img-profile{ 
+    margin-left: 20%;
+    width: 100px;
+  }
 
    .Title {  
         font-size: 0.6em;   
@@ -176,6 +172,13 @@ hr{
    
    font-size: 0.6em; 
      letter-spacing: 0em;
- }
+    }
   }
+
+    @media print {
+    a {  
+          text-decoration: none;      
+    }   
+  }
+
 </style>
