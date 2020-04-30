@@ -1,7 +1,7 @@
 <template>
 <div>
   <div v-for="job in Jobs" v-bind:key="job.id">     
-     <span class="Title">{{ job.Job }}</span>
+     <span class="Title-Bold">{{ job.Job }}</span>
      <br/>
      <span class="SubTitle">{{ job.Company }} | {{ job.StartDate }} - {{job.EndDate}} </span>      
      <br/>

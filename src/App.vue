@@ -2,38 +2,33 @@
   <div id="app">      
   <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
     <div class="col-1">
-       <div class="col-2">
-        <img src="./assets/0.jpeg" class="img-profile" />
-      </div>
       <div class="col-2">
-        <FullName FirstName="Cristian" LastName="Carvajal Bahamón" />
-        <br>      
-      </div>   
+          <div class="col-1">
+            <div class="col-10">
+            </div> 
+            <div class="col-80 center">
+              <img src="./assets/0.jpeg" class="img-profile" />
+              <FullName FirstName="Cristian" LastName="Carvajal" />
+            </div>   
+          </div> 
+      </div>
+       <div class="col-2">
+          <Title Title="Contacto" />
+           <Contact  v-for="contact in contacts"  v-bind:key="contact.id" v-bind:Icon="contact.icon" v-bind:Value="contact.value" />
+      </div>     
     </div>
+    <br>
     <hr>
     <br>
-    <br>
+   
    <div class="col-1">
      <div class="col-2">
        <div class="col-1">        
-        <div class="col-20">               
+        <div class="col-10">               
         </div>
-        <div class="col-70">     
-          <Contact  v-for="contact in contacts"  v-bind:key="contact.id" v-bind:Icon="contact.icon" v-bind:Value="contact.value" />
-           <hr>
-          <Title Title="Educación" />
-          <Education></Education>
-         <Title Title="Certificaciones" />
-          <Certifications></Certifications> 
-          <Title Title="Cursos" />
-          <Course></Course>    
-        </div>            
-    </div>
-      
-    </div>
-    <div class="col-2">     
+        <div class="col-80">     
           <Title Title="Perfil" />
-          <Paragraph Paragraph="Cuento con 8 años de experiencia en desarrollo .NET (C#, VB, Asp.Net, Asp.Net MVC, Web Api, WPF, WCF).
+          <Paragraph Paragraph="Cuento con 9 años de experiencia en desarrollo .NET (C#, VB, Asp.Net, Asp.Net MVC, Web Api, WPF, WCF).
           Desarrollo frontend en HTML, CSS, JavaScript, Vue.js, AngularJS 1.x, Bootstrap, Stylus, Gulp y MeteorJs.
           Bases de datos SQL Server, Oracle, Postgress, PL/SQL, MongoDB, Firebase y Elasticsearch.
           Manejo de Reporting Services, Report Builder y Sybase InfoMaker. 
@@ -41,7 +36,15 @@
           Conocimientos de metodologías ágiles de desarrollo (SCRUM, XP, Kanban), conocimientos de patrones de diseño y UML.
           Integración Continua CI, entrega continua CD mediante AzureDevops. Conocimiento de Git y GitHub, herramientas como
           Sonar Qube, Resharper y JMeter." />
-          <br>
+          <Title Title="Educación" />
+          <Education></Education>
+          <Title Title="Certificaciones" />
+          <Certifications></Certifications> 
+        </div>            
+    </div>
+      
+    </div>
+    <div class="col-2"> 
           <Title Title="Experiencia" />
           <WorkExperience ></WorkExperience >
     </div>   
@@ -56,7 +59,6 @@ import FullName from './components/FullName.vue'
 import WorkExperience from './components/WorkExperience.vue'
 import Contact from './components/Contact.vue'
 import Education from './components/Education.vue'
-import Course from './components/Course.vue'
 import Certifications from './components/Certifications.vue'
 
 
@@ -69,7 +71,6 @@ export default {
     WorkExperience,
     Contact,
     Education,
-    Course,
     Certifications
   },
   data(){ 
@@ -78,8 +79,8 @@ export default {
         [
             { id:1, icon : "fas fa-envelope", value :"cristian.carvajal@live.com" },
             { id:2, icon : "fab fa-linkedin", value :"linkedin.com/in/cricarba/" },
-            { id:5, icon : "fab fa-twitter", value :"@cricarba" },                      
-            { id:6, icon : "fab fa-skype", value :"crisltree" },
+            { id:5, icon : "fab fa-twitter", value :"@cricarba" },  
+            { id:4, icon : "fas fa-globe", value :"cricarba.github.io/profile/" },
             { id:7, icon : "fas fa-map-marker", value :"Bogotá, CO" },
         ]
         }
@@ -93,14 +94,20 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;  
   color: #2c3e50;
-  margin-top: 5%;
+  margin-top: 3%;
+}
+
+.Title-Bold{
+   letter-spacing: 0.2em;
+   text-transform: uppercase;
+   font-size: 0.8em; 
+   font-weight: 550;
 }
 
 .Title{
    letter-spacing: 0.2em;
    text-transform: uppercase;
-   font-size: 0.8em; 
-   font-weight: 550;
+   font-size: 0.8em;  
 }
 
 .SubTitle{
@@ -117,7 +124,7 @@ export default {
 }
 .img-profile{
   border-radius: 50%;
-  margin-left: 40%;
+  filter: grayscale(100%);
   width: 150px;
 }
 
@@ -129,6 +136,9 @@ a:active {color:#2c3e50;}  /* Selected link   */
 hr{  
   margin-right:40px;
 }
+ .center{
+   text-align: center;
+ }
 .col-1{
   width: 100%;
   display: flex;
@@ -137,6 +147,9 @@ hr{
 }
 .col-2{
   width: 50%;    
+}
+.col-3{
+  width: 33%;    
 }
 .col-60{
   width: 60%;    
@@ -153,24 +166,23 @@ hr{
 .col-20{
   width: 20%;    
 }
-.col-3{
-  width: 33%;
-    
+.col-10{
+  width: 10%;    
 }
 
+
   @media only screen and (max-width: 600px) {
-      .img-profile{ 
+  .img-profile{ 
     margin-left: 20%;
     width: 100px;
   }
 
    .Title {  
         font-size: 0.6em;   
-         letter-spacing: 0.1em;
+        letter-spacing: 0.1em;
    }
-   .SubTitle {
-   
-   font-size: 0.6em; 
+   .SubTitle {   
+     font-size: 0.6em; 
      letter-spacing: 0em;
     }
   }
