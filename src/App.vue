@@ -2,54 +2,53 @@
   <div id="app">      
   <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
     <div class="col-1">
-      <div class="col-2">
-          <div class="col-1">
-            <div class="col-10">
-            </div> 
+      <div class="col-40">
+          <div class="col-1">              
             <div class="col-80 center">
               <img src="./assets/0.jpeg" class="img-profile" />
               <FullName FirstName="Cristian" LastName="Carvajal" />
             </div>   
           </div> 
       </div>
-       <div class="col-2">
+       <div class="col-60">
           <Title Title="Contacto" />
            <Contact  v-for="contact in contacts"  v-bind:key="contact.id" v-bind:Icon="contact.icon" v-bind:Value="contact.value" />
       </div>     
     </div>
+    
+    
     <br>
     <hr>
     <br>
    
    <div class="col-1">
-     <div class="col-2">
-       <div class="col-1">        
-        <div class="col-10">               
-        </div>
-        <div class="col-80">     
-          <Title Title="Perfil" />
-          <Paragraph Paragraph="Cuento con 9 años de experiencia en desarrollo .NET (C#, VB, Asp.Net, Asp.Net MVC, Web Api, WPF, WCF).
-          Desarrollo frontend en HTML, CSS, JavaScript, Vue.js, AngularJS 1.x, Bootstrap, Stylus, Gulp y MeteorJs.
-          Bases de datos SQL Server, Oracle, Postgress, PL/SQL, MongoDB, Firebase y Elasticsearch.
-          Manejo de Reporting Services, Report Builder y Sybase InfoMaker. 
-          Lenguajes de programación C#, Visual Basic.Net y JavaScript.
-          Conocimientos de metodologías ágiles de desarrollo (SCRUM, XP, Kanban), conocimientos de patrones de diseño y UML.
-          Integración Continua CI, entrega continua CD mediante AzureDevops. Conocimiento de Git y GitHub, herramientas como
-          Sonar Qube, Resharper y JMeter." />
-          <Title Title="Educación" />
-          <Education></Education>
-          <Title Title="Certificaciones" />
-          <Certifications></Certifications> 
-        </div>            
-    </div>
-      
-    </div>
-    <div class="col-2"> 
-          <Title Title="Experiencia" />
-          <WorkExperience ></WorkExperience >
-    </div>   
+      <div class="col-40" id="left">
+        <div class="col-1">        
+            <div class="col-10">               
+            </div>
+            <div class="col-80">     
+              <Title Title="Perfil" />
+              <Paragraph Paragraph="Cuento con 9 años de experiencia en desarrollo .NET (C#, VB, Asp.Net, Asp.Net MVC, Web Api, WPF, WCF).
+              Desarrollo frontend en HTML, CSS, JavaScript, Vue.js, AngularJS 1.x, Bootstrap, Stylus, Gulp y MeteorJs.
+              Bases de datos SQL Server, Oracle, Postgress, PL/SQL, MongoDB, Firebase y Elasticsearch.
+              Manejo de Reporting Services, Report Builder y Sybase InfoMaker. 
+              Lenguajes de programación C#, Visual Basic.Net y JavaScript.
+              Conocimientos de metodologías ágiles de desarrollo (SCRUM, XP, Kanban), conocimientos de patrones de diseño y UML.
+              Integración Continua CI, entrega continua CD mediante AzureDevops. Conocimiento de Git y GitHub, herramientas como
+              Sonar Qube, Resharper y JMeter." />
+              <Title Title="Educación" />
+              <Education></Education>
+              <Title Title="Certificaciones" />
+              <Certifications></Certifications> 
+            </div>
+          </div>           
+      </div> 
+      <div class="col-60" id="right">    
+            <Title Title="Experiencia" />
+            <WorkExperience ></WorkExperience >
+      </div>   
    </div>
-  </div>
+ </div> 
 </template>
 
 <script>
@@ -124,7 +123,7 @@ export default {
 }
 .img-profile{
   border-radius: 50%;
-  filter: grayscale(100%);
+  filter: grayscale(50%);
   width: 150px;
 }
 
@@ -151,14 +150,28 @@ hr{
 .col-3{
   width: 33%;    
 }
-.col-60{
-  width: 60%;    
+.col-4{
+  width: 25%;    
+}
+
+.col-90{
+  width: 90%;    
 }
 .col-80{
   width: 80%;    
 }
 .col-70{
   width: 70%;    
+}
+.col-60{
+  width: 60%;    
+}
+
+.col-50{
+  width: 50%;    
+}
+.col-40{
+  width: 40%;    
 }
 .col-30{
   width: 30%;    
