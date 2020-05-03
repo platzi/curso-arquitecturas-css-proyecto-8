@@ -20,6 +20,6 @@ git commit -m 'despliegue'
 #git push -f git@github.com:cricarba/cricarba.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:cricarba/profile.git master:gh-pages
+git push -f git@github.com:cricarba/profile.git profile2:gh-pages
 
 cd -
