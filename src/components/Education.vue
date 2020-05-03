@@ -1,7 +1,7 @@
 <template>
 <div>
   <div v-for="education in Educations" v-bind:key="education.id">     
-     <span class="Title">{{ education.Title }}</span>
+     <span class="Title-Bold">{{ education.Title }}</span>
      <br/>
      <span class="SubTitle">{{ education.Instituted }} | {{ education.StartDate }} - {{education.EndDate}} </span>      
      <br/>      

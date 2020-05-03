@@ -2,7 +2,6 @@
   <div>
      <span class="letter">{{ FirstName }} </span>
      <br/>
-     <br/>
      <span class="letter lastName">{{ LastName }}</span>
   </div>
 </template>
@@ -21,18 +20,17 @@ export default {
 <style scoped>
 
  .letter {
-   letter-spacing: 0.5em;
+   letter-spacing: 0.2em;
    text-transform: uppercase;
-   font-size: 1.8em;        
-  
+   font-size: 2em;
  }
 .lastName {  
    font-weight: bold;    
  }
+
   @media only screen and (max-width: 600px) {
    .letter {  
-        font-size: 1em; 
-         
+        font-size: 1em;          
    }
   }
 </style>
