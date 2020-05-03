@@ -28,14 +28,14 @@
             </div>
             <div class="col-80">     
               <Title Title="Perfil" />
-              <Paragraph Paragraph="Cuento con 9 años de experiencia en desarrollo .NET (C#, VB, Asp.Net, Asp.Net MVC, Web Api, WPF, WCF).
-              Desarrollo frontend en HTML, CSS, JavaScript, Vue.js, AngularJS 1.x, Bootstrap, Stylus, Gulp y MeteorJs.
-              Bases de datos SQL Server, Oracle, Postgress, PL/SQL, MongoDB, Firebase y Elasticsearch.
-              Manejo de Reporting Services, Report Builder y Sybase InfoMaker. 
-              Lenguajes de programación C#, Visual Basic.Net y JavaScript.
-              Conocimientos de metodologías ágiles de desarrollo (SCRUM, XP, Kanban), conocimientos de patrones de diseño y UML.
-              Integración Continua CI, entrega continua CD mediante AzureDevops. Conocimiento de Git y GitHub, herramientas como
-              Sonar Qube, Resharper y JMeter." />
+              <Paragraph Paragraph="Cuento con 9 años de experiencia en desarrollo .NET (C#, VB, Asp.Net, Asp.Net MVC, Web Api, WPF, WCF, Net Core).
+                                    Desarrollo frontend en HTML, CSS, JavaScript, Vue.js, AngularJS, Angular, Bootstrap, Stylus, Gulp y MeteorJs, SASS.
+                                    Bases de datos SQL Server, Oracle, MySQL, MongoDB, Firebase, Elasticsearch.
+                                    Manejo de Reporting Services, Report Builder y Sybase InfoMaker.
+                                    Lenguajes de programación C#, Visual Basic.Net, Javascript, experiencia de 1 año con Python y Node.js.
+                                    Conocimientos de metodologías ágiles de desarrollo (SCRUM, XP, Kanban). Conocimientos de patrones de diseño y UML. Integración Continua CI, entrega continua CD mediante AzureDevops.
+                                    Conocimiento de Git, GitHub, TFS/AzureDevops y herramientas como Sonar Qube, Resharper, JMeter, Kibana y Logstah.
+                                    Conocimientos en Unit testing, integration testing, TDD, automatización con Selenium. " />
               <Title Title="Educación" />
               <Education></Education>
               <Title Title="Certificaciones" />
