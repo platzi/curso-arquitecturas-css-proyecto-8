@@ -1,28 +1,10 @@
-# Cricarba Profile  [![Build status](https://cricarbah.visualstudio.com/Profile/_apis/build/status/Profile-CI)](https://cricarbah.visualstudio.com/Profile/_build/latest?definitionId=5) [![dependencies Status Status](https://david-dm.org/cricarba/profile.svg)](https://david-dm.org/cricarba/profile?type=dev) [![devDependencies Status](https://david-dm.org/cricarba/profile/dev-status.svg)](https://david-dm.org/cricarba/profile?type=dev)  
-## Project setup
-```
-npm install
-```
+# Mi Perfil  [![Build status](https://cricarbah.visualstudio.com/Profile/_apis/build/status/Profile-CI)](https://cricarbah.visualstudio.com/Profile/_build/latest?definitionId=5) [![dependencies Status Status](https://david-dm.org/cricarba/profile.svg)](https://david-dm.org/cricarba/profile?type=dev) [![devDependencies Status](https://david-dm.org/cricarba/profile/dev-status.svg)](https://david-dm.org/cricarba/profile?type=dev)  
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Una SPA dode encuentran mi curriculum viate 
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Despleagado en Azure mediante pipelines de AzureDevOps https://cricarba.azurewebsites.net/
 
-### Run your tests
-```
-npm run test
-```
+Desplegado en Github pages https://cricarba.github.io/profile/
 
-### Lints and fixes files
-```
-npm run lint
-```
+100% Vue.js 2
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
