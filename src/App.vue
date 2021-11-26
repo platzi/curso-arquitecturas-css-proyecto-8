@@ -5,7 +5,7 @@
       <div class="col-40">
         <div class="col-1">
           <div class="col-80 center">
-            <img src="./assets/0.jpeg" class="img-profile" />
+            <img src="./assets/1.jpg" class="img-profile" />
             <FullName FirstName="Cristian" LastName="Carvajal" />
           </div>
         </div>
@@ -136,7 +136,6 @@ export default {
 }
 .img-profile {
   border-radius: 50%;
-  filter: grayscale(50%);
   width: 150px;
 }
 
