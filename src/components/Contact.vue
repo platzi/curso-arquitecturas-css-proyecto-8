@@ -2,7 +2,7 @@
   <div>
     <div>
       <i class="icon" v-bind:class="Icon"></i>
-      <span class="SubTitle">{{Value}}</span>
+      <span class="SubTitle">   <a v-bind:href="Link" target="_blank">{{Value}}</a></span>
     </div>
   </div>
 </template>
@@ -11,7 +11,8 @@ export default {
   name: "Contact",
   props: {
     Value: String,
-    Icon: String
+    Icon: String,
+    Link: String
   }
 };
 </script>

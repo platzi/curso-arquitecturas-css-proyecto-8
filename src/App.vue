@@ -17,6 +17,7 @@
           v-bind:key="contact.id"
           v-bind:Icon="contact.icon"
           v-bind:Value="contact.value"
+          v-bind:Link="contact.link"
         />
       </div>
     </div>
@@ -32,14 +33,24 @@
           <div class="col-80">
             <Title title="Perfil" />
             <Paragraph
-              Paragraph="Cuento con 9 años de experiencia en desarrollo .NET (C#, VB, Asp.Net, Asp.Net MVC, Web Api, WPF, WCF, Net Core).
-                                    Desarrollo frontend en HTML, CSS, JavaScript, Vue.js, AngularJS, Angular, Bootstrap, Stylus, Gulp y MeteorJs, SASS.
-                                    Bases de datos SQL Server, Oracle, MySQL, MongoDB, Firebase, Elasticsearch.
-                                    Manejo de Reporting Services, Report Builder y Sybase InfoMaker.
-                                    Lenguajes de programación C#, Visual Basic.Net, Javascript, experiencia de 1 año con Python y Node.js.
-                                    Conocimientos de metodologías ágiles de desarrollo (SCRUM, XP, Kanban). Conocimientos de patrones de diseño y UML. Integración Continua CI, entrega continua CD mediante AzureDevops.
-                                    Conocimiento de Git, GitHub, TFS/AzureDevops y herramientas como Sonar Qube, Resharper, JMeter, Kibana y Logstah.
-                                    Conocimientos en Unit testing, integration testing, TDD, automatización con Selenium. "
+              Paragraph="Cuento con 3 años de experiencia liderando equipos de desarrollo y 11 años de experiencia en desarrollo de software. Liderando equipos he potenciado los conocimientos técnicos y las habilidades blandas de las personas que trabajan junto a mi. En estos años hemos implementado mejoras a los procesos de desarrollo mediante una cultura ágil por medio de SCRUM y DevOps las cuales nos han permitido aumentar la calidad y velocidad en entrega de resultados. Esto a través de Integración y despliegue continuo, revisiones de código, automatización de pruebas, entre otros.
+
+Stack .Net: C#, VB.net, Asp.Net, Asp.Net MVC, Web Api, WPF, WCF, Net Core, GraphQL gRPC.
+
+Lenguajes de programación C#, Visual Basic.Net, Javascript.
+
+Desarrollo frontend en HTML, CSS, JavaScript, Vue.js, AngularJS, Angular, Bootstrap, Stylus, Gulp y MeteorJs, SASS.
+
+Bases de datos SQL Server, Oracle, MySQL, MongoDB, Firebase, Elasticsearch.
+Manejo de Reporting Services, Report Builder y Sybase InfoMaker.
+
+Conocimientos de metodologías ágiles de desarrollo (SCRUM, XP, Kanban). Conocimientos de patrones de diseño, patrones de arquitectura y UML.
+
+Integración Continua CI, entrega continua CD mediante AzureDevops.
+Conocimiento de Git, GitHub, TFS/AzureDevops y herramientas como Sonar Qube, Resharper, JMeter, Kibana y Logstah.
+
+Conocimientos en Unit testing, integration testing, TDD, automatización con Selenium.
+Conocimientos de la nube Azure (Azure functions, Blob Storage, CDN, etc...)"
             />
             <Title title="Educación" />
             <Education></Education>
@@ -79,11 +90,11 @@ export default {
   data() {
     return {
       contacts: [
-        { id: 1, icon: "fas fa-envelope", value: "cristian.carvajal@live.com" },
-        { id: 2, icon: "fab fa-linkedin", value: "https://linkedin.com/in/cricarba/" },
-        { id: 5, icon: "fab fa-twitter", value: "@cricarba" },
-        { id: 4, icon: "fas fa-globe", value: "https://cricarba.azurewebsites.net" },
-        { id: 7, icon: "fas fa-map-marker", value: "Bogotá, CO" }
+        { id: 1, icon: "fas fa-envelope", value: "cristian.carvajal@live.com", link:"mailto:cristian.carvajal@live.com"},
+        { id: 2, icon: "fab fa-linkedin", value: "https://linkedin.com/in/cricarba/", link : "https://linkedin.com/in/cricarba/"},
+        { id: 5, icon: "fab fa-twitter", value: "@cricarba", link : "https://twitter.com/CriCarBa"},
+        { id: 4, icon: "fas fa-globe", value: "https://cricarba.github.io/profile/", link : "https://cricarba.github.io/profile/" },
+        { id: 7, icon: "fas fa-map-marker", value: "Bogotá, CO", link: "https://www.google.com.co/maps/place/Bogot%C3%A1/@4.6486259,-74.2478917,11z/data=!3m1!4b1!4m5!3m4!1s0x8e3f9bfd2da6cb29:0x239d635520a33914!8m2!3d4.7109886!4d-74.072092"}
       ]
     };
   }
