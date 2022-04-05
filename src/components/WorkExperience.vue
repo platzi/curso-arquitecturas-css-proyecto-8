@@ -32,7 +32,7 @@ export default {
           id: 9,
           Company: "Isolucion",
           Job: "Director de desarrollo de software",
-          StartDate: "Feb. 2020",
+          StartDate: "Feb. 2021",
           EndDate: "Actualmente",
           Description:
             "Implementación de mejoras a los procesos de desarrollo mediante una cultura ágil por medio de SCRUM y DevOps las cuales nos han permitido aumentar la calidad y velocidad en entrega de los resultados. Esto a través de Integración y despliegue continuo, revisiones de código automatización de pruebas, entre otros."
@@ -42,7 +42,7 @@ export default {
           Company: "Aranda Software",
           Job: "Desarrollador fullstack",
           StartDate: "Sep. 2019",
-          EndDate: "Feb. 2020",
+          EndDate: "Feb. 2021",
           Description:
             "Desarrollo y mantenimiento aplcacaión ADM. Backend .Net C#, Sql Server, Mqtt, Servicios Rest full, SOAP, Unit Test, entre otras. Frontend Backbone, underscore, sass, Javascript"
         },

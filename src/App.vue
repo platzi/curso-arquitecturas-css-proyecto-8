@@ -33,24 +33,24 @@
           <div class="col-80">
             <Title title="Perfil" />
             <Paragraph
-              Paragraph="Cuento con 3 años de experiencia liderando equipos de desarrollo y 11 años de experiencia en desarrollo de software. Liderando equipos he potenciado los conocimientos técnicos y las habilidades blandas de las personas que trabajan junto a mi. En estos años hemos implementado mejoras a los procesos de desarrollo mediante una cultura ágil por medio de SCRUM y DevOps las cuales nos han permitido aumentar la calidad y velocidad en entrega de resultados. Esto a través de Integración y despliegue continuo, revisiones de código, automatización de pruebas, entre otros.
+              Paragraph="Cuento con 11 años de experiencia en desarrollo de software y 3 años de experiencia liderando equipos de desarrollo. Liderando equipos he potenciado los conocimientos técnicos y las habilidades blandas de las personas que trabajan junto a mi. En estos años hemos implementado mejoras a los procesos de desarrollo mediante una cultura ágil por medio de SCRUM y DevOps las cuales nos han permitido aumentar la calidad y velocidad en entrega de resultados. Esto a través de Integración y despliegue continuo, revisiones de código, automatización de pruebas, entre otros.
 
-Stack .Net: C#, VB.net, Asp.Net, Asp.Net MVC, Web Api, WPF, WCF, Net Core, GraphQL gRPC.
+                        Stack .Net: C#, VB.net, Asp.Net, Asp.Net MVC, Web Api, WPF, WCF, Net Core, GraphQL gRPC.
 
-Lenguajes de programación C#, Visual Basic.Net, Javascript.
+                        Lenguajes de programación C#, Visual Basic.Net, Javascript.
 
-Desarrollo frontend en HTML, CSS, JavaScript, Vue.js, AngularJS, Angular, Bootstrap, Stylus, Gulp y MeteorJs, SASS.
+                        Desarrollo frontend en HTML, CSS, JavaScript, Vue.js, AngularJS, Angular, Bootstrap, Stylus, Gulp y MeteorJs, SASS.
 
-Bases de datos SQL Server, Oracle, MySQL, MongoDB, Firebase, Elasticsearch.
-Manejo de Reporting Services, Report Builder y Sybase InfoMaker.
+                        Bases de datos SQL Server, Oracle, MySQL, MongoDB, Firebase, Elasticsearch.
+                        Manejo de Reporting Services, Report Builder y Sybase InfoMaker.
 
-Conocimientos de metodologías ágiles de desarrollo (SCRUM, XP, Kanban). Conocimientos de patrones de diseño, patrones de arquitectura y UML.
+                        Conocimientos de metodologías ágiles de desarrollo (SCRUM, XP, Kanban). Conocimientos de patrones de diseño, patrones de arquitectura y UML.
 
-Integración Continua CI, entrega continua CD mediante AzureDevops.
-Conocimiento de Git, GitHub, TFS/AzureDevops y herramientas como Sonar Qube, Resharper, JMeter, Kibana y Logstah.
+                        Integración Continua CI, entrega continua CD mediante AzureDevops.
+                        Conocimiento de Git, GitHub, TFS/AzureDevops y herramientas como Sonar Qube, Resharper, JMeter, Kibana y Logstah.
 
-Conocimientos en Unit testing, integration testing, TDD, automatización con Selenium.
-Conocimientos de la nube Azure (Azure functions, Blob Storage, CDN, etc...)"
+                        Conocimientos en Unit testing, integration testing, TDD, automatización con Selenium.
+                        Conocimientos de la nube Azure (Azure functions, Blob Storage, CDN, etc...)"
             />
             <Title title="Educación" />
             <Education></Education>
