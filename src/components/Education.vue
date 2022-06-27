@@ -25,10 +25,10 @@ export default {
       Educations: [
         {
           id: 1,
-          Instituted: "Universidad ECCI",
-          Title: "Ingenieria de Sistemas",
-          StartDate: "5° semestre",
-          EndDate: "Aplazado"
+          Instituted: "ECCI University",
+          Title: "Systems Engineer",
+          StartDate: "3 years",
+          EndDate: "Postponed"
         }
       ]
     };

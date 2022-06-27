@@ -14,7 +14,7 @@ cd dist
 
 git init
 git add -A
-git commit -m 'Despliegue 2021'
+git commit -m 'Despliegue 2022 english'
 
 # if you are deploying to https://<USERNAME>.github.io
 #git push -f git@github.com:cricarba/cricarba.github.io.git master

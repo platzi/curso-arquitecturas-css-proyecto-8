@@ -6,8 +6,6 @@
       <span class="SubTitle">{{ job.Company }} | {{ job.StartDate }} - {{job.EndDate}}</span>
       <br />
       <Paragraph :Paragraph="job.Description" />
-      <br />
-      <br />
     </div>
   </div>
 </template>
@@ -30,17 +28,26 @@ export default {
       Jobs: [
         {
           id: 9,
-          Company: "Isolucion",
-          Job: "Director de desarrollo de software",
-          StartDate: "Feb. 2021",
-          EndDate: "Actualmente",
+          Company: "Aranda Software",
+          Job: "Product Manager",
+          StartDate: "Apr. 2022",
+          EndDate: "Currently",
           Description:
-            "Implementación de mejoras a los procesos de desarrollo mediante una cultura ágil por medio de SCRUM y DevOps las cuales nos han permitido aumentar la calidad y velocidad en entrega de los resultados. Esto a través de Integración y despliegue continuo, revisiones de código automatización de pruebas, entre otros."
+            "Liderazgo del equipo de desarrollo de los productos ADM y AES. Responable de la pleaneacion, ejecucion y liberación de las caracteristicas de los productos a cargo, definici0n y mantenimiento del Product backlog. Seguimiento a los compromisos adquiridos durantes los sprints, seguimientos a los casos con cliente externo"
+        },
+        {
+          id: 9,
+          Company: "Isolucion",
+          Job: "Software Development Manager",
+          StartDate: "Feb. 2021",
+          EndDate: "Apr. 2022",
+          Description:
+            "Liderazgo del equipo de desarrollo, aseguramiento de la calidad e infraestructura, implementación de mejoras a los procesos de desarrollo mediante una cultura ágil. Implementacion de SCRUM y DevOps. Responsable de la planeacion, ejecucion y liberación de las nuevas caracteristicas y modulos del software."
         },
         {
           id: 8,
           Company: "Aranda Software",
-          Job: "Desarrollador fullstack",
+          Job: "Software Developer FullStack",
           StartDate: "Sep. 2019",
           EndDate: "Feb. 2021",
           Description:
@@ -49,7 +56,7 @@ export default {
         {
           id: 7,
           Company: "Isolucion",
-          Job: "Lider de desarrollo",
+          Job: "Software Team Leader",
           StartDate: "Sep. 2017",
           EndDate: "Sep. 2019",
           Description:
@@ -58,7 +65,7 @@ export default {
         {
           id: 6,
           Company: "everis",
-          Job: "Ingeniero de desarrollo Sr.",
+          Job: "Senior Development Engineer",
           StartDate: "Nov. 2016",
           EndDate: "Sep. 2017",
           Description:
@@ -67,25 +74,16 @@ export default {
         {
           id: 5,
           Company: "Isolucion",
-          Job: "Ingeniero de desarrollo Sr.",
+          Job: "Senior Development Engineer",
           StartDate: "Oct. 2015",
           EndDate: "Nov. 2016",
           Description:
             "Creación Software SST Facil, desarrollo de nuevos módulos y funcionalidades. Metodologia Scrum.                  Lenguaje de programación C#, base de datos MongoDb, SQL Server, Oracle.                  Creación del front Angularjs, Jquery, HTML, CSS, Javascript, Asp MVC5 y asp.Net WebForms.                  Conexión entre aplicaciones con Web Api.                  Creación de servicios windows para control de datos y despliegue de aplicación.                  Versionamiento con Team Foundation Services, administración del TFS, creación de branchs, merges, creación de usuarios, etc"
         },
         {
-          id: 4,
-          Company: "Sonda",
-          Job: "Ingeniero de desarrollo Sr.",
-          StartDate: "Sep. 2015",
-          EndDate: "Oct. 2015",
-          Description:
-            "Desarrollo de software .Net, Windows Form, Asp.Net creación de ETLs para carga de archivos en lote.             Servicios Windows para automatización de cargue de archivos."
-        },
-        {
           id: 3,
           Company: "Isolucion",
-          Job: "Ingeniero de desarrollo Jr.",
+          Job: "Junior Development Engineer",
           StartDate: "May. 2013",
           EndDate: "Sep. 2015",
           Description:
@@ -94,7 +92,7 @@ export default {
         {
           id: 2,
           Company: "Digital Ware",
-          Job: "Ingeniero de desarrollo Jr.",
+          Job: "Junior Development Engineer",
           StartDate: "Feb. 2013",
           EndDate: "May. 2013",
           Description:
@@ -103,7 +101,7 @@ export default {
         {
           id: 1,
           Company: "Oasis",
-          Job: "Técnico de desarrollo",
+          Job: "Software Development Technician",
           StartDate: "Feb. 2011",
           EndDate: "Feb. 2013",
           Description:
