@@ -27,13 +27,13 @@ export default {
     return {
       Jobs: [
         {
-          id: 9,
+          id: 10,
           Company: "Aranda Software",
           Job: "Product Manager",
           StartDate: "Apr. 2022",
           EndDate: "Currently",
           Description:
-            "Liderazgo del equipo de desarrollo de los productos ADM y AES. Responable de la pleaneacion, ejecucion y liberación de las caracteristicas de los productos a cargo, definici0n y mantenimiento del Product backlog. Seguimiento a los compromisos adquiridos durantes los sprints, seguimientos a los casos con cliente externo"
+            "I lead two teams and each team is a different product. I am responsible the development and the QA teams, we are responsible for definitions, planning, execution and follow-up of new software features"
         },
         {
           id: 9,
@@ -42,7 +42,7 @@ export default {
           StartDate: "Feb. 2021",
           EndDate: "Apr. 2022",
           Description:
-            "Liderazgo del equipo de desarrollo, aseguramiento de la calidad e infraestructura, implementación de mejoras a los procesos de desarrollo mediante una cultura ágil. Implementacion de SCRUM y DevOps. Responsable de la planeacion, ejecucion y liberación de las nuevas caracteristicas y modulos del software."
+            "I was responsible for the development, infraestucture and the QA teams, we were responsible for definitions, planning, execution and deploy new software features"
         },
         {
           id: 8,
@@ -51,7 +51,7 @@ export default {
           StartDate: "Sep. 2019",
           EndDate: "Feb. 2021",
           Description:
-            "Desarrollo y mantenimiento aplcacaión ADM. Backend .Net C#, Sql Server, Mqtt, Servicios Rest full, SOAP, Unit Test, entre otras. Frontend Backbone, underscore, sass, Javascript"
+            "Development and maintenance of ADM application. Technologies used .Net C#, Sql Server, Mqtt, Rest full services, SOAP, Unit Test. Backbone, underscore, sass, Javascript"
         },
         {
           id: 7,
@@ -60,7 +60,7 @@ export default {
           StartDate: "Sep. 2017",
           EndDate: "Sep. 2019",
           Description:
-            "Liderazgo del equipo de desarrollo, definición de metodologías, tecnologías y arquitectura para realizar nuevos desarrollos o modificaciones a aplicaciones existentes.        Control del código fuente mediante herramientas como Sonar Qube y Resharper.        Versionamiento, liberación, control de código fuente mediante AzureDevOps (TFS, VSTS, Git) administración del mismo. "
+            "I was responsible for the development team, for the definition of architectures and technologies for new software features. Technologies used .Net C#, Sql Server, Oracle, Elastic, Vue, Angular, Sonar Qube, Resharper. AzureDevOps (TFS, VSTS, Git) "
         },
         {
           id: 6,
@@ -69,7 +69,7 @@ export default {
           StartDate: "Nov. 2016",
           EndDate: "Sep. 2017",
           Description:
-            "Desarrollo y mantenimiento de funcionalidades en múltiples aplicaciones. Tecnologías usadas .Net framework 2.0 hasta 4.6, Bases de datos Oracle y SQL Server. Aplicaciones en WPF, Asp.Net Web forms, Asp MVC4 y MVC 5.Manejo de Javascript, HTML, CSS, Angular y Jquery.            Servicios web (Web Services, Web Api, WCF)            Control de versiones con SVN, Team Foundation y Rational Team Concert.            Liderazgo de desarrolladores Junior, estimaciones, control sobre entregables, reunion de defición con el cliente."
+            "Development and maintenance  application. Tecnologías usadas .Net framework 2.0 hasta 4.6, Bases de datos Oracle y SQL Server. Aplicaciones en WPF, Asp.Net Web forms, Asp MVC4 y MVC 5.Manejo de Javascript, HTML, CSS, Angular y Jquery.            Servicios web (Web Services, Web Api, WCF)            Control de versiones con SVN, Team Foundation y Rational Team Concert.            Liderazgo de desarrolladores Junior, estimaciones, control sobre entregables, reunion de defición con el cliente."
         },
         {
           id: 5,

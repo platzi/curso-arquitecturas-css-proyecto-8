@@ -2,7 +2,6 @@
 
 Una SPA donde encuentran mi curriculum viate :notebook:
 
-:rocket: Despleagado en [Azure](https://cricarba.azurewebsites.net/) mediante pipelines de AzureDevOps
 
 :rocket: Desplegado en [Github pages](https://cricarba.github.io/profile)
 
