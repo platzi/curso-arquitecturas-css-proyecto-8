@@ -28,7 +28,7 @@ export default {
           Instituted: "ECCI University",
           Title: "Systems Engineer",
           StartDate: "3 years",
-          EndDate: "Postponed"
+          EndDate: "-"
         }
       ]
     };

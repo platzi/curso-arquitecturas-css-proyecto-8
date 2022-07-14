@@ -31,9 +31,9 @@ export default {
           Company: "Aranda Software",
           Job: "Product Manager",
           StartDate: "Apr. 2022",
-          EndDate: "Currently",
+          EndDate: "Current job",
           Description:
-            "I lead two teams and each team is a different product. I am responsible the development and the QA teams, we are responsible for definitions, planning, execution and follow-up of new software features"
+            "I currently lead two teams and each team is a different product. I am responsible for development and QA teams, we are responsible for definitions, planning, execution and follow-up of new software features"
         },
         {
           id: 9,
@@ -42,7 +42,7 @@ export default {
           StartDate: "Feb. 2021",
           EndDate: "Apr. 2022",
           Description:
-            "I was responsible for the development, infraestucture and the QA teams, we were responsible for definitions, planning, execution and deploy new software features"
+            "Responsible for development, infraestucture and QA teams leader. We were responsible for definitions, planning, execution and deploy new software features"
         },
         {
           id: 8,
@@ -60,7 +60,7 @@ export default {
           StartDate: "Sep. 2017",
           EndDate: "Sep. 2019",
           Description:
-            "I was responsible for the development team, for the definition of architectures and technologies for new software features. Technologies used .Net C#, Sql Server, Oracle, Elastic, Vue, Angular, Sonar Qube, Resharper. AzureDevOps (TFS, VSTS, Git) "
+            "Development team leader, for the definition of architectures and technologies for new software features. Technologies used .Net C#, Sql Server, Oracle, Elastic, Vue, Angular, Sonar Qube, Resharper. AzureDevOps (TFS, VSTS, Git) "
         },
         {
           id: 6,
@@ -69,7 +69,7 @@ export default {
           StartDate: "Nov. 2016",
           EndDate: "Sep. 2017",
           Description:
-            "Development and maintenance  application. Tecnologías usadas .Net framework 2.0 hasta 4.6, Bases de datos Oracle y SQL Server. Aplicaciones en WPF, Asp.Net Web forms, Asp MVC4 y MVC 5.Manejo de Javascript, HTML, CSS, Angular y Jquery.            Servicios web (Web Services, Web Api, WCF)            Control de versiones con SVN, Team Foundation y Rational Team Concert.            Liderazgo de desarrolladores Junior, estimaciones, control sobre entregables, reunion de defición con el cliente."
+            "Development and maintenance application. Technologies used .Net framework 2.0 hasta 4.6, Bases de datos Oracle y SQL Server. Aplicaciones en WPF, Asp.Net Web forms, Asp MVC4 y MVC 5.Manejo de Javascript, HTML, CSS, Angular y Jquery.            Servicios web (Web Services, Web Api, WCF)            Control de versiones con SVN, Team Foundation y Rational Team Concert.            Liderazgo de desarrolladores Junior, estimaciones, control sobre entregables, reunion de defición con el cliente."
         },
         {
           id: 5,
