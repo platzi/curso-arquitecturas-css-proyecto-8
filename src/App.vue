@@ -11,7 +11,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  margin-top: 3%;
+  
 }
 
 .Title-Bold {
@@ -19,18 +19,28 @@
   text-transform: uppercase;
   font-size: 0.8em;
   font-weight: 550;
+  color: #2c3e50;
 }
 
 .Title {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   font-size: 0.8em;
+  color: #2c3e50;
 }
 
 .SubTitle {
   letter-spacing: 0.1em;
   font-size: 0.8em;
   line-height: 1.6;
+  color: #3B4856;
+}
+.SubTitle-bold {
+  letter-spacing: 0.1em;
+  font-size: 0.8em;
+  line-height: 1.6;
+  font-weight: 500;
+  color: #3B4856;
 }
 
 .Footer {
@@ -50,12 +60,12 @@ a {
 
 /* Unvisited link  */
 a:visited {
-  color: #2c3e50;
+  color: #3B4856;
 }
 
 /* Visited link    */
 a:hover {
-  color: #2c3e50;
+  color: #9FADBD;
 }
 
 /* Mouse over link */
@@ -123,7 +133,7 @@ hr {
 
 .col-20 {
   width: 20%;
-   float: left;
+  float: left;
 }
 
 .col-10 {

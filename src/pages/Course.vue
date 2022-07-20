@@ -1,26 +1,21 @@
 <template>
   <div>
-    <Header></Header>
-    <Title title="Azure" />
     <div v-for="course in Courses.Azure" v-bind:key="course.id" class="col-20 card">
       <a :href="course.Location" target="_blank">
+        <img src="../assets/img/mstest.jpg" class="img-course" />
+        <br />
+        <br />
         <span class="TitleCourse">{{ course.Title }}</span>
         <br />
-        <span class="SubTitleCourse">{{ course.Instituted }} | {{ course.StartDate }} - {{ course.EndDate }}</span>
-        <br />
-        <img src="../assets/img/mstest.jpg" class="img-course" />
+        <span class="SubTitleCourse">{{ course.Instituted }} | {{ course.EndDate }}</span>
       </a>
     </div>
   </div>
 </template>
 <script>
-import Header from "../components/Header.vue";
-import Title from "../components/Title.vue";
+
 export default {
   name: "Course",
-  components: {
-    Header, Title
-  },
   props: {
     Instituted: String,
     Title: String,
@@ -33,60 +28,53 @@ export default {
         Azure: [
           {
             id: 1,
-            Instituted: "Pluralsight",
-            Title:"Implementing Managed Identities for Microsoft Azure Resources",
-            StartDate: "Jul. 2020",
-            EndDate: "Jul. 2020",
+            Instituted: "Platzi",
+            Title: "React.js: Patrones de render y composición",
+            EndDate: "Apr. 2022",
             Location: "https://cvcricarba.blob.core.windows.net/certificates/Implementing%20Managed%20Identities%20for%20Microsoft%20Azure%20Resources.pdf"
           },
           {
             id: 2,
-            Instituted: "Pluralsight",
-            Title: "Instrument Application with Azure Monitor Application Insigths",
-            StartDate: "Jul. 2020",
-            EndDate: "Jul. 2020",
+            Instituted: "Platzi",
+            Title: "Introducción a React.js",
+            EndDate: "Apr. 2022",
             Location: "https://cvcricarba.blob.core.windows.net/certificates/Instrument%20Application%20with%20Azure%20Monitor%20Application%20Insights.pdf"
           },
           {
-            id: 19,
+            id: 3,
             Instituted: "Pluralsight",
-            Title: "Docker and Kubernetes: The Big Picture",
-            StartDate: "Jul. 2019",
-            EndDate: "Jul. 2019",
-            Location: "https://1drv.ms/b/s!AjMiacNj2IM_hYMnuJfjhG1QKRdlMA"
+            Title: "Microsoft Azure Developer: Create serverless functions",
+            EndDate: "Sep. 2020",
+            Location: "https://cricarbacdn.azureedge.net/certificates/microsoft-azure-serverless-functions-create.pdf"
           },
           {
-            id: 18,
+            id: 4,
             Instituted: "Pluralsight",
-            Title:
-              "Continuous Delivery and DevOps with Azure DevOps: Managing Builds",
-            StartDate: "Jun. 2019",
-            EndDate: "Jun. 2019",
-            Location: "https://cvcricarba.blob.core.windows.net/certificates/Automated Testing with MSTest V2.pdf"
+            Title: "Microsoft Azure Developer: Implementing CDNs for storage",
+            EndDate: "Jul. 2020",
+            Location: "https://cricarbacdn.azureedge.net/certificates/Microsoft%20Azure%20Developer_Implementing%20CDNs%20for%20Storage.pdf"
           },
           {
             id: 4,
             Instituted: "Pluralsight",
             Title:
-              "Source Control with Microsoft TFS/VSTS and Visual Studio 2017",
-            StartDate: "Jun. 2019",
-            EndDate: "Jun. 2019"
+              "Implementing mangad identities for microsoft azure resources",
+            EndDate: "Jul. 2020",
+            Location: "https://cricarbacdn.azureedge.net/certificates/Implementing%20Managed%20Identities%20for%20Microsoft%20Azure%20Resources.pdf"
           },
           {
             id: 5,
             Instituted: "Pluralsight",
-            Title:
-              "Continuous Delivery and DevOps with Azure DevOps: The Big Picture",
-            StartDate: "May. 2019",
-            EndDate: "May. 2019"
+            Title: "Microsoft Azure Developer: Enterprise messaging and eventing",
+            EndDate: "Jul. 2020",
+            Location: "https://cricarbacdn.azureedge.net/certificates/Microsoft_Azure_Developer_Enterprise_Messaging_Eventing.pdf"
           },
           {
-            id: 6,
+            id: 5,
             Instituted: "Pluralsight",
-            Title:
-              "Continuous Integration and Continuous Delivery: The Big Picture",
-            StartDate: "May. 2019",
-            EndDate: "May. 2019"
+            Title: "Microsoft Azure Developer: Enterprise messaging and eventing",
+            EndDate: "Jul. 2020",
+            Location: "https://cricarbacdn.azureedge.net/certificates/Microsoft_Azure_Developer_Enterprise_Messaging_Eventing.pdf"
           },
           {
             id: 7,
@@ -180,23 +168,32 @@ a {
 }
 
 .card {
-  padding: 10px;
+  padding: 3%;
+  background-color: #ffffff;
+  margin: 2%;
+  text-align: center;
+  min-height: 350px;
+  max-height: 350px;
+
 }
 
 .TitleCourse {
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   font-size: 0.7em;
+  color: rgb(12, 12, 11);
 }
 
 .SubTitleCourse {
   letter-spacing: 0.1em;
   font-size: 0.7em;
   line-height: 1.6;
+  color: rgb(44, 44, 44);
+
 }
 
 .img-course {
-  width: 150px;
+  width: 400px;
 }
 </style>
 

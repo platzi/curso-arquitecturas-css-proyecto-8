@@ -3,9 +3,10 @@
     <div v-for="job in Jobs" v-bind:key="job.id">
       <span class="Title-Bold">{{ job.Job }}</span>
       <br />
-      <span class="SubTitle">{{ job.Company }} | {{ job.StartDate }} - {{job.EndDate}}</span>
+      <span class="SubTitle-bold">{{ job.Company }} | {{ job.StartDate }} - {{ job.EndDate }}</span>
       <br />
       <Paragraph :Paragraph="job.Description" />
+      <br />
     </div>
   </div>
 </template>
@@ -33,7 +34,7 @@ export default {
           StartDate: "Apr. 2022",
           EndDate: "Current job",
           Description:
-            "I currently lead two teams and each team is a different product. I am responsible for development and QA teams, we are responsible for definitions, planning, execution and follow-up of new software features"
+            "I currently lead two teams, ADM team and AES team. I am responsible for definitions, planning, execution and follow-up of new software features"
         },
         {
           id: 9,
@@ -42,7 +43,7 @@ export default {
           StartDate: "Feb. 2021",
           EndDate: "Apr. 2022",
           Description:
-            "Responsible for development, infraestucture and QA teams leader. We were responsible for definitions, planning, execution and deploy new software features"
+            "Responsible for development, infraestucture and QA teams. I was responsible for definitions, planning, execution and deploy new software features"
         },
         {
           id: 8,
@@ -60,7 +61,7 @@ export default {
           StartDate: "Sep. 2017",
           EndDate: "Sep. 2019",
           Description:
-            "Development team leader, for the definition of architectures and technologies for new software features. Technologies used .Net C#, Sql Server, Oracle, Elastic, Vue, Angular, Sonar Qube, Resharper. AzureDevOps (TFS, VSTS, Git) "
+            "Development team leader, responsible for the definition of architectures and technologies for new software features. Technologies used .Net C#, Sql Server, Oracle, Elastic, Vue, Angular, Sonar Qube, Resharper. AzureDevOps (TFS, VSTS, Git) "
         },
         {
           id: 6,
@@ -69,7 +70,7 @@ export default {
           StartDate: "Nov. 2016",
           EndDate: "Sep. 2017",
           Description:
-            "Development and maintenance application. Technologies used .Net framework 2.0 hasta 4.6, Bases de datos Oracle y SQL Server. Aplicaciones en WPF, Asp.Net Web forms, Asp MVC4 y MVC 5.Manejo de Javascript, HTML, CSS, Angular y Jquery.            Servicios web (Web Services, Web Api, WCF)            Control de versiones con SVN, Team Foundation y Rational Team Concert.            Liderazgo de desarrolladores Junior, estimaciones, control sobre entregables, reunion de defición con el cliente."
+            "Development and maintenance to different applications. Technologies used .Net framework 2.0 - 4.6, Oracle and SQL Server Databases. WPF, Asp.Net Web forms, Asp MVC4 and MVC 5. Javascript, HTML, CSS, Angular and Jquery. Web Services, Web Api, WCF. Version Control with SVN, Team Foundation and Rational Team Concert."
         },
         {
           id: 5,
@@ -78,7 +79,7 @@ export default {
           StartDate: "Oct. 2015",
           EndDate: "Nov. 2016",
           Description:
-            "Creación Software SST Facil, desarrollo de nuevos módulos y funcionalidades. Metodologia Scrum.                  Lenguaje de programación C#, base de datos MongoDb, SQL Server, Oracle.                  Creación del front Angularjs, Jquery, HTML, CSS, Javascript, Asp MVC5 y asp.Net WebForms.                  Conexión entre aplicaciones con Web Api.                  Creación de servicios windows para control de datos y despliegue de aplicación.                  Versionamiento con Team Foundation Services, administración del TFS, creación de branchs, merges, creación de usuarios, etc"
+            "We created the 'SST Facil' software, I Developed  new modules and fuatures. Technologies used C# , MongoDb database, SQL Server, Oracle. Angularjs, Jquery, HTML, CSS, Javascript, Asp MVC5 and asp.Net WebForms, Web API. Team Foundation Services, TFS administration."
         },
         {
           id: 3,
@@ -87,7 +88,7 @@ export default {
           StartDate: "May. 2013",
           EndDate: "Sep. 2015",
           Description:
-            "Migración de Software Isolucion de asp classic a ASP.Net, desarrollo de nuevos módulos y funcionalidades, evolución de funcionalidades anteriores. Metodología Cascada y Scrum.                Lenguaje de programación C#, base de datos SQL Server, Oracle.                Creación del front Angularjs, Jquery, HTML, CSS, Javascript, Asp MVC5 y asp.Net WebForms.                Conexión entre aplicaciones con Web Api.                Creación de servicios windows para newsletter y workFlow."
+            "Migrated Software Isolucion  from asp classic to ASP.Net, I Developed  new modules and fuatures. C#,  SQL Server, Oracle, Scrum Methodology. Angularjs, Jquery, HTML, CSS, Javascript, Asp MVC5, asp.Net WebForms and Web Api."
         },
         {
           id: 2,
@@ -96,7 +97,7 @@ export default {
           StartDate: "Feb. 2013",
           EndDate: "May. 2013",
           Description:
-            "Desarrollo Software Kactus RH. Bajo lenguaje de programación C#y VB, base de datos SQL Server. Creaciòn del front Javascript, HTML, CSS y Asp.WebForms"
+            "Develop and maintaince Kactus RH software with tecnologies C#, VB, SQL Server. HTML, CSS and Asp.WebForms"
         },
         {
           id: 1,
@@ -105,7 +106,7 @@ export default {
           StartDate: "Feb. 2011",
           EndDate: "Feb. 2013",
           Description:
-            "Desarrollo, Soporte y mantenimiento de la aplicación Oasis. Creación Sotfware OasisPortal, bajo lenguaje de programación C#, bases de datos SQL Server, Oracle. Creación del front Javascript, HTML, CSS, Jquery asp.WebForms.  Manejo de reportes con Reporting Services."
+            "Development, support and maintenance of the Oasis application. Creation of OasisPortal Software, under C# programming language, SQL Server, Oracle databases. Creation of the front Javascript, HTML, CSS, Jquery asp.WebForms. Management of reports with Reporting Services."
         }
       ]
     };

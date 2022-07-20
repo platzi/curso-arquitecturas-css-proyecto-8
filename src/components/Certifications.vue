@@ -3,7 +3,7 @@
     <div v-for="certification in Certifications" v-bind:key="certification.id" class="col-1">
       <div class="col-80">
         <a :href="certification.Location" target="_blank">
-          <span class="Title">{{ certification.Title }}</span>
+          <span class="Title-Bold">{{ certification.Title }}</span>
         </a>
         <br />
         <span

@@ -13,9 +13,9 @@
             <Contact v-for="contact in contacts" v-bind:key="contact.id" v-bind:Icon="contact.icon"
                 v-bind:Value="contact.value" v-bind:Link="contact.link" />
         </div>
-          <br />
-    <hr />
-    <br />
+        <br />
+      
+
     </div>
 
   
