@@ -34,7 +34,7 @@
             <Education></Education>
             <Title title="Certificates" />
             <Certifications></Certifications>
-            <Title title="Last courses" />
+            <Title title="Latest courses" />
             <router-link to="/course"> view more course...</router-link>
           </div>
         </div>
