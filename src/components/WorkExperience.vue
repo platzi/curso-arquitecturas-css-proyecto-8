@@ -88,7 +88,7 @@ export default {
           StartDate: "May. 2013",
           EndDate: "Sep. 2015",
           Description:
-            "Migrated Software Isolucion  from asp classic to ASP.Net, I Developed  new modules and fuatures. C#,  SQL Server, Oracle, Scrum Methodology. Angularjs, Jquery, HTML, CSS, Javascript, Asp MVC5, asp.Net WebForms and Web Api."
+            "Migrated Isolucion´s software from asp classic to ASP.Net, I Developed  new modules and features. C#,  SQL Server, Oracle, Scrum Methodology. Angularjs, Jquery, HTML, CSS, Javascript, Asp MVC5, asp.Net WebForms and Web Api."
         },
         {
           id: 2,
