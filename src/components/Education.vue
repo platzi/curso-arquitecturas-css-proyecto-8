@@ -7,7 +7,7 @@
         class="SubTitle"
       >{{ education.Instituted }} | {{ education.StartDate }} - {{education.EndDate}}</span>
       <br />
-      <br />
+  
     </div>
   </div>
 </template>
@@ -28,7 +28,7 @@ export default {
           Instituted: "ECCI University",
           Title: "Systems Engineer",
           StartDate: "3 years",
-          EndDate: "-"
+          EndDate: ""
         }
       ]
     };

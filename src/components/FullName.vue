@@ -20,7 +20,7 @@ export default {
 .letter {
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  font-size: 2em;
+  font-size: 1em;
 }
 .lastName {
   font-weight: bold;

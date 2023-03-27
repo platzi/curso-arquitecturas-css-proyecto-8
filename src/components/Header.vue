@@ -4,6 +4,8 @@
             <div class="col-1">
                 <div class="col-80 center">
                     <img src="../assets/1.jpeg" class="img-profile" />
+                    <br />
+                
                     <FullName FirstName="Cristian" LastName="Carvajal Bahamón" />
                 </div>
             </div>

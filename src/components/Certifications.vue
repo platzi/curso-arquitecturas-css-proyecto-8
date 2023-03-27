@@ -6,9 +6,7 @@
           <span class="Title-Bold">{{ certification.Title }}</span>
         </a>
         <br />
-        <span
-          class="SubTitle"
-        >{{ certification.Instituted }} | {{ certification.StartDate }} - {{certification.EndDate}}</span>
+        <span class="SubTitle">{{ certification.Instituted }} | {{ certification.StartDate }} - {{certification.EndDate}}</span>
         <br />
         <br />
       </div>

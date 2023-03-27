@@ -28,13 +28,22 @@ export default {
     return {
       Jobs: [
         {
+          id: 11,
+          Company: "Mercado Libre",
+          Job: "Sr Software developer",
+          StartDate: "Oct. 2022",
+          EndDate: "Current job",
+          Description:
+            "I design and develop applications with high availability, reliability and scalability. I use Java, micronaut, java rx, REST services, queues and caches. Other concepts and tools, postman, unit testing, integration testing, load and stress testing."
+        },
+        {
           id: 10,
           Company: "Aranda Software",
           Job: "Product Manager",
           StartDate: "Apr. 2022",
-          EndDate: "Current job",
+          EndDate: "Oct. 2022",
           Description:
-            "I currently lead two teams, ADM team and AES team. I am responsible for definitions, planning, execution and follow-up of new software features"
+            "I managed two teams and two products. I was in charge of development and QA teams, we were responsible for defining, planning, executing and tracking new software features."
         },
         {
           id: 9,

@@ -19,14 +19,14 @@ export default {
 <style scoped>
 .icon {
   letter-spacing: 0.5em;
-  font-size: 1.3em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.5;
 }
 
 @media only screen and (max-width: 600px) {
   .icon {
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
 }
 </style>

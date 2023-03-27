@@ -9,10 +9,9 @@
           <div class="col-80">
             <Title title="Profile" />
             <Paragraph
-              Paragraph="I am a Software developer with eleven year experience and 3 years as a team leader. 
-              I have worked in several national companies and a Spanish multinational company." />
+              Paragraph="I am a Software Developer/Team Leader with 12 years of experience." />
             <br>
-            <Paragraph Paragraph="My main Stack  is .Net: C#, VB.net, Asp.Net, Asp.Net MVC, Web Api, WPF, WCF, Net Core, GraphQL gRPC. 
+            <Paragraph Paragraph="My main Stack is .Net: C#, VB.net, Asp.Net, Asp.Net MVC, Web Api, WPF, WCF, Net Core, GraphQL gRPC. 
                               HTML, CSS, JavaScript, Vue.js, AngularJS, Angular, React, Bootstrap, Stylus, Gulp and SASS." />
             <br>
 
@@ -32,10 +31,11 @@
                         " />
             <Title title="Education" />
             <Education></Education>
+            <Title title="Languagues" />
+            <Languages></Languages>
             <Title title="Certificates" />
             <Certifications></Certifications>
-            <Title title="Latest courses" />
-            <router-link to="/course"> view more course...</router-link>
+        
           </div>
         </div>
       </div>
@@ -55,6 +55,7 @@ import WorkExperience from "../components/WorkExperience.vue";
 
 import Education from "../components/Education.vue";
 import Certifications from "../components/Certifications.vue";
+import Languages from "../components/Languages.vue";
 
 export default {
   name: "curriculum",
@@ -64,7 +65,8 @@ export default {
     Header,
     WorkExperience,
     Education,
-    Certifications
+    Certifications,
+    Languages
   },
 
 };
