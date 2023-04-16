@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <i class="icon" v-bind:class="Icon"></i>
+      <i class="text-lg font-bold spacing-xl line-height-xs" v-bind:class="Icon"></i>
       <span class="SubTitle">   <a v-bind:href="Link" target="_blank">{{Value}}</a></span>
     </div>
   </div>
@@ -17,19 +17,8 @@ export default {
 };
 </script>
 <style scoped>
-.icon {
-  letter-spacing: 0.5em;
-  font-size: 1em;
-  font-weight: bold;
-  line-height: 1.5;
-}
-
-@media only screen and (max-width: 600px) {
-  .icon {
-    font-size: 0.7em;
-  }
-}
+@import './../styles/settings/font-size.scss';
+@import './../styles/settings/font-weight.scss';
+@import './../styles/settings/letter-spacing.scss';
+@import './../styles/settings/line-height.scss';
 </style>
- 
-
- 
