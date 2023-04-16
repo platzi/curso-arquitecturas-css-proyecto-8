@@ -1,8 +1,8 @@
 <template>
   <div>
-    <span class="letter">{{ FirstName }}</span>
+    <span class="spacing-sm text-lg uppercase">{{ FirstName }}</span>
     <br />
-    <span class="letter lastName">{{ LastName }}</span>
+    <span class="spacing-sm text-lg uppercase font-bold">{{ LastName }}</span>
   </div>
 </template>
 
@@ -17,24 +17,8 @@ export default {
 </script>
 
 <style scoped>
-.letter {
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  font-size: 1em;
-}
-.lastName {
-  font-weight: bold;
-}
-
-@media only screen and (max-width: 600px) {
-  .letter {
-    font-size:0.8em;
-  }
-}
-
-@media print {
-  .letter {
-    font-size:0.8em;
-  } 
-}
+@import './../styles/settings/font-size.scss';
+@import './../styles/settings/font-weight.scss';
+@import './../styles/settings/letter-spacing.scss';
+@import './../styles/settings/text-transform.scss';
 </style>

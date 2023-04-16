@@ -1,0 +1,25 @@
+.spacing-xs {
+  letter-spacing: 0.1em;
+}
+
+.spacing-sm {
+  letter-spacing: 0.2em;
+}
+
+.spacing-md {
+  letter-spacing: 0.3em;
+  @media only screen and (max-width: 600px) {
+    letter-spacing: 0.1em;
+  }
+  @media print {
+    letter-spacing: 0.1em;
+  }
+}
+
+.spacing-lg {
+  letter-spacing: 0.4em;
+}
+
+.spacing-xl {
+  letter-spacing: 0.5em;
+}

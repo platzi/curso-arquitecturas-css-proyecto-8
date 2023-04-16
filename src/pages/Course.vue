@@ -1,13 +1,13 @@
 <template>
   <div>
     <div v-for="course in Courses.Azure" v-bind:key="course.id" class="col-20 card">
-      <a :href="course.Location" target="_blank">
-        <img src="../assets/img/mstest.jpg" class="img-course" />
+      <a class="no-underline" :href="course.Location" target="_blank">
+        <img class="image" src="../assets/img/mstest.jpg" alt="imagen del curso" />
         <br />
         <br />
-        <span class="TitleCourse">{{ course.Title }}</span>
+        <span class="TitleCourse spacing-xs uppercase text-xs text-black-800">{{ course.Title }}</span>
         <br />
-        <span class="SubTitleCourse">{{ course.Instituted }} | {{ course.EndDate }}</span>
+        <span class="SubTitleCourse spacing-xs text-xs line-height-sm text-black-700">{{ course.Instituted }} | {{ course.EndDate }}</span>
       </a>
     </div>
   </div>
@@ -161,39 +161,13 @@ export default {
   }
 };
 </script>
-
 <style>
-a {
-  text-decoration: none;
-}
-
-.card {
-  padding: 3%;
-  background-color: #ffffff;
-  margin: 2%;
-  text-align: center;
-  min-height: 350px;
-  max-height: 350px;
-
-}
-
-.TitleCourse {
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  font-size: 0.7em;
-  color: rgb(12, 12, 11);
-}
-
-.SubTitleCourse {
-  letter-spacing: 0.1em;
-  font-size: 0.7em;
-  line-height: 1.6;
-  color: rgb(44, 44, 44);
-
-}
-
-.img-course {
-  width: 400px;
-}
+@import './../styles/settings/font-size.scss';
+@import './../styles/settings/font-weight.scss';
+@import './../styles/settings/letter-spacing.scss';
+@import './../styles/settings/text-transform.scss';
+@import './../styles/settings/text-decoration.scss';
+@import './../styles/settings/colors.scss';
+@import './../styles/components/card.scss';
 </style>
 

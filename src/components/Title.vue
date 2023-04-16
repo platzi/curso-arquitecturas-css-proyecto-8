@@ -1,6 +1,6 @@
 <template>
   <div class="col-1">
-    <span class="letter">{{Title}}</span>
+    <span class="spacing-md text-lg line-height-md uppercase">{{Title}}</span>
   </div>
 </template>
 <script>
@@ -12,25 +12,8 @@ export default {
 };
 </script>
 <style scoped>
-.letter {
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  font-size: 1em;
-  line-height: 3;
-}
-@media only screen and (max-width: 600px) {
-  .letter {
-    font-size: 0.9em;
-    letter-spacing: 0.1em;
-  }
-}
-@media print {
-  .letter {
-    font-size: 0.9em;
-    letter-spacing: 0.1em;
-  }
-}
+@import './../styles/settings/font-size.scss';
+@import './../styles/settings/font-weight.scss';
+@import './../styles/settings/letter-spacing.scss';
+@import './../styles/settings/text-transform.scss';
 </style>
- 
-
- 

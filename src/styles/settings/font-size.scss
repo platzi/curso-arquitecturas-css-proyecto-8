@@ -1,0 +1,21 @@
+.text-xs {
+  font-size: 0.7em;
+}
+
+.text-sm {
+  font-size: 0.8em;
+}
+
+.text-md {
+  font-size: 0.9em;
+}
+
+.text-lg {
+  font-size: 1em;
+  @media only screen and (max-width: 600px) {
+    font-size: 0.7em;
+  }
+  @media print {
+    font-size:0.8em;
+  }
+}
